@@ -2,7 +2,7 @@ import sqlite3
 import time
 import pandas as pd
 from datetime import datetime
-
+print("Izmena")
 def load_dim_coin(df, conn):
 
     for _, row in df.iterrows():
